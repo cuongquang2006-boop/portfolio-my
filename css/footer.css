@@ -1,0 +1,138 @@
+footer{
+
+    padding:60px 20px;
+
+    text-align:center;
+
+}
+
+
+.footer-content{
+
+    width:min(700px,90%);
+
+    margin:auto;
+
+}
+
+
+.footer-content h3{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:
+
+    rgba(6,157,227,.95);
+
+}
+
+
+.footer-content p{
+
+    margin-top:12px;
+
+    font-size:1rem;
+
+    line-height:1.7;
+
+    color:
+
+    var(--text-secondary);
+
+}
+
+
+/* Social */
+
+.social-links{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+}
+
+
+.social-links a{
+
+    width:55px;
+
+    height:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:
+
+    rgba(255,255,255,.15);
+
+    backdrop-filter:
+
+    blur(20px);
+
+    border:
+
+    1px solid
+
+    rgba(255,255,255,.2);
+
+    color:
+
+    var(--text);
+
+    font-size:1.5rem;
+
+    text-decoration:none;
+
+    transition:
+
+    all .3s ease;
+
+}
+
+
+.social-links a:hover{
+
+    transform:
+
+    translateY(-8px)
+
+    scale(1.1);
+
+    color:#2196f3;
+
+    box-shadow:
+
+    0 10px 25px
+
+    rgba(33,150,243,.2);
+
+}
+
+
+/* Copyright */
+
+.copyright{
+
+    margin-top:35px !important;
+
+    font-size:.9rem !important;
+
+    color:
+
+    var(--text-secondary);
+
+}
