@@ -1,0 +1,73 @@
+:root{
+
+--bg:#08111f;
+
+--bg-gradient:
+
+radial-gradient(
+    circle at top,
+    #0b0157,
+    #270156,
+    #14035b
+);
+
+--card:#18253d;
+
+--card-hover:#22304c;
+
+--text:#ffffff;
+
+--text-secondary:#9ba4b5;
+
+--accent:#5b5dfc;
+
+--accent-hover:#7274ff;
+
+--border:#253551;
+
+--shadow:
+
+0 10px 30px rgba(0,0,0,.25);
+
+--radius:24px;
+
+--transition: 1s ease;
+
+}
+
+
+.light-theme{
+
+--bg:#dfcde7d2;
+
+--bg-gradient:
+
+linear-gradient(
+
+180deg,
+
+#eef2ff,
+
+#f6f7fc
+
+);
+
+--card:#ffffff;
+
+--card-hover:#fafaff;
+
+--text:#111827;
+
+--text-secondary:#6b7280;
+
+--accent:#5b5dfc;
+
+--accent-hover:#7274ff;
+
+--border:#e7e9f2;
+
+--shadow:
+
+0 10px 25px rgba(0,0,0,.08);
+
+}
