@@ -1,0 +1,38 @@
+.welcome-link{
+
+    text-decoration:none;
+
+    background:linear-gradient(
+
+        90deg,
+
+        #00f5ff,
+
+        #c73ff8,
+
+        #00f5ff
+
+    );
+
+    background-size:300% auto;
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    transition:
+
+    .3s ease;
+
+}
+
+.welcome-link:hover{
+
+    transform:
+
+    scale(1.05);
+
+    filter:
+    drop-shadow(0 0 12px rgba( 0,245,255,.5));
+
+}

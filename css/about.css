@@ -1,0 +1,109 @@
+#about{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-top:40px;
+
+    scroll-margin-top:140px;
+
+}
+
+.about-card{
+
+    width:1150px;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:
+
+    rgba(255,255,255,.18);
+
+    backdrop-filter:
+
+    blur(20px);
+
+    border:
+
+    1px solid
+
+    rgba(255,255,255,.1);
+
+    box-shadow:
+
+    0 15px 30px
+
+    rgba(0,0,0,.08);
+
+}
+
+.about-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+.about-item{
+
+    flex:1;
+
+    text-align:center;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    background:
+
+    var(--card-hover);
+
+    transition:
+
+    all .3s ease;
+
+}
+
+.about-item:hover{
+
+    transform:
+
+    translateY(-8px);
+
+    box-shadow:
+
+    0 10px 25px
+
+    rgba(
+
+    91,
+
+    93,
+
+    252,
+
+    .15
+
+    );
+
+}
+
+.about-item i{
+
+    font-size:35px;
+
+    color:
+
+    rgba(0, 166, 255, 0.99);
+
+    margin-bottom:15px;
+
+}

@@ -1,0 +1,36 @@
+
+/* btn on index html */
+.login-btn{
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+    background:
+    
+    linear-gradient(
+
+        90deg,
+
+        #05fbea,
+
+        #0095ff56
+
+    );
+
+
+    color: white;
+
+    font-weight: 600;
+
+    gap: 5px;
+
+    transition: all .4s ease;
+}
+
+.login-btn:hover{
+    
+    transform: translateY(-3px);
+    opacity: 0.8;    
+}

@@ -105,13 +105,28 @@
     cursor:pointer;
 
     transition:.3s;
+
+    gap: 10px;
 }
- 
- .theme-btn:hover{
+
+.theme-btn:hover{
 
     transform:scale(1.1);
 
     box-shadow: 0 0 15px rgba(255,255,255,.3);
+}
+
+.theme-btn i{
+    transition:transform .5s ease;
+}
+/* wwhen click */
+.theme-btn:hover i{
+    transform: rotate(180deg);
+}
+
+/* when hover */
+.theme-btn i.rotate{
+    transform: rotate(360deg);
 }
 
 :root{
@@ -145,4 +160,15 @@ rgba(255,255,255,.1);
 .last-name{
 
     color:rgba(13, 213, 220, 0.917);
+}
+
+
+/* login btn and dark/light mode*/
+.nav-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
 }

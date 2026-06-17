@@ -150,6 +150,8 @@
 
     font-weight:600;
 
+    cursor:pointer;
+
     background:
 
     linear-gradient(
@@ -158,13 +160,49 @@
 
         #05fbea,
 
-        #0095ff56
+        #2195f351,
+
+        #7c4dff,
+
+        #05fbea
 
     );
 
-    cursor:pointer;
+    background-size:
 
-    transition: all .5s ease;
+    300% auto;
+
+    animation:
+
+    gradientBtn 5s linear infinite;
+
+    transition:
+
+    transform .4s ease,
+
+    box-shadow .4s ease;
+
+}
+
+/* animation button */
+@keyframes gradientBtn{
+
+    0%{
+
+        background-position:
+
+        0% center;
+
+    }
+
+    100%{
+
+        background-position:
+
+        300% center;
+
+    }
+
 }
 
 .btn-secondary{
